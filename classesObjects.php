@@ -1,5 +1,13 @@
 <?php 
 
+include 'author.php';
+include_once 'person.php'; //include without the error!
+
+/**
+ * If a class to be included is missing, php will execute the program. 
+ * But require, instead, throws an error
+ */
+
 /**
  * $this is reference to a PHP Object that was created by the interpreter for you,
  * that contains an array of variables.
@@ -14,60 +22,17 @@
  * + Members declared as private may only be accessed by the class that defines the member. 
  */
 
- //Class A
-class Person{
-
-    Const AVG_LIFE_SPAN = 80;
-
-    protected $firstName; 
-    protected $lastName; 
-    protected $yearBorn; 
-
-    function __construct($tempFirst = "", $tempLast = "", $tempBorn = 1899){
-        echo "Person constructor".PHP_EOL;         
-        $this -> firstName = $tempFirst; 
-        $this -> lastName = $tempLast; 
-        $this -> yearBorn = $tempBorn;
-    }
-
-    protected function getFirstName(){
-        return $this -> firstName.PHP_EOL; 
-    }
-
-    protected function setFirstName($tempName){
-        $this -> firstName = $tempName; 
-    }
-
-    protected function getFullName(){
-        echo "Person -> getFullName()".PHP_EOL; 
-        return $this->firstName." ".$this->lastName.PHP_EOL; 
-    }
-}
-
-//Class B 
-class Author extends Person{
-    protected $penName = "Mark Twain";
-
-    protected function getPenName(){
-        return $this -> penName.PHP_EOL; 
-    }
-
-    public function getFullName(){
-        echo "Author -> getFullName()".PHP_EOL; 
-        return $this->firstName." ".$this->lastName.PHP_EOL; 
-    }
-
-}
-
-$myPersonObj = new Person("Davide", "Fella", "1987"); 
+//$myPersonObj = new Person("Davide", "Fella", "1987"); 
 //echo $myPersonObj::AVG_LIFE_SPAN; //--> PRINT THE CONST 
 
 //$myPersonObj -> setFirstName("Sam"); 
 
 //echo $myPersonObj -> getFullName();
 
-$myAuthor = new Author("Author name", "Author lastname", 1990);  
-echo $myAuthor -> getFullName();
+//$myAuthor = new Author("Author name", "Author lastname", 1990);  
+//echo $myAuthor -> getFullName();
+
+echo Author::getCenturyAuthorWasPopular(); 
 
 
 
