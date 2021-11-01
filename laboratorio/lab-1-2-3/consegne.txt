@@ -1,0 +1,27 @@
+LABORATORIO 1
+
+Creare una pagina HTML con una form per inviare i seguenti dati con metodo post: 
+    - Nome
+    - Cognome
+    - Indirizzo
+    - Email
+
+Prevedere una validazione del campo email (Cercare documentazione del campo “input”) 
+Prevedere una action per un redirect ad una pagina che stampi un messaggio di ringraziamento
+
+
+LABORATORIO 2 
+
+Insieme ad un messaggio di ringraziamento, stampare il contenuto della variabile $_POST
+Inserire il contenuto dell’array $_POST in un secondo array temporaneo chiamato “tmp_array”
+Ordinare in ordine decrescente il contenuto dell’array “tmp_array” e stamparlo 
+(Nota, maiuscole e minuscole hanno ordinamento differente)
+
+
+LABORATORIO 3 
+
+Dato l’array del punto precedente, fare in modo che 
+    - Gli elementi in posizione pari siano stampati in UPPER CASE
+    - Gli elementi in posizione dispari in lower case
+
+Se l’elemento dell’array contiene la ‘@’ oppure ha più di 5 lettere, stamparla al contrario
