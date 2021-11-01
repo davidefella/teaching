@@ -31,7 +31,7 @@
             return False;
         }
 
-        //If statment ternario, equivalente al precedente (più compatto): 
+        //If-then ternario, equivalente al precedente (più compatto): 
         return  ($numero % 2) == 0 ? True : False; 
     }
 
