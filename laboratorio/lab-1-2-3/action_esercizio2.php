@@ -2,8 +2,6 @@
     /**
     * Inserire il contenuto dell’array $_POST in un secondo array temporaneo chiamato “tmp_array”
     * Ordinare in ordine decrescente il contenuto dell’array “tmp_array” e stamparlo 
-    *
-    * NOTA: Questo passaggio poteva essere fatto contestualmente al punto precedente modificando il loop. 
     */
     $tmp_array = array(); 
 
