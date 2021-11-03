@@ -1,4 +1,4 @@
 # php-fundamentals
-Didactic material for a course in Web programming fundamentals
+Materiale didattico per il corso di Fondamenti di Programmazione 
 
 Davide Fella
