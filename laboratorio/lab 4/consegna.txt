@@ -1,0 +1,20 @@
+1) Modificare la maschera in modo che siano presenti i seguenti campi (commentare / rimuovere gli altri): 
+    Nome
+    Cognome
+    Anno di Nascita
+    Mese di Nascita
+
+2) Dopo il redirect nella pagina di feedback (nella action), stampare la prima parte del codice fiscale ottenuto con questi i dati
+
+    Algoritmo codice fiscale 
+
+    https://www.alus.it/pubs/CodiceFiscale/index.php?lang=it
+
+    Fermarsi al calcolo del mese di nascita
+
+3) Prevedere un controllo nella stessa pagina prima dell'invio: 
+    2.1 - Controllo se tutti i dati siano presenti
+        2.1.1 - Stampa messaggio di errore nel caso non sia presente un campo
+
+
+

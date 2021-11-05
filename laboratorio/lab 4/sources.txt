@@ -1,0 +1,9 @@
+Calcolo codice fiscale
+    https://www.alus.it/pubs/CodiceFiscale/index.php?lang=it
+
+$_SERVER["PHP_SELF"];
+    https://www.w3schools.com/php/php_superglobals_server.asp
+
+header 
+    https://www.php.net/manual/en/function.header.php
+    https://www.mrw.it/php/redirect-php_7866.html
