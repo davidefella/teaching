@@ -9,7 +9,6 @@
         echo $chiave.": ".$valore;
         echo "</pre>\n";
     }
-
 ?>
 
 <html>
