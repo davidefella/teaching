@@ -57,14 +57,14 @@
 	</head>
 
 	<body>
-		<form action="action_esercizio3.php" method="post">
+		<form action="action_esercizio4.php" method="post">
 			<ul>	
 				<li>
 					<label for="nome">Nome:</label>
 					<input type="text" id="nome" name="nome_utente" />
 				</li>
 				<li>
-					<label for="cognome">Cognome:</label>
+					<la bel for="cognome">Cognome:</label>
 					<input type="text" id="cognome" name="cognome_utente" />
 				</li>
 				<li>
@@ -73,7 +73,6 @@
 				</li>
 				<li>
 					<label for="mail">E-mail:</label>
-					<!-- Prevedere una validazione del campo email -->
 					<input type="email" id="mail" name="email_utente" />
 				</li>
 				<li class="button">

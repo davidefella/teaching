@@ -22,6 +22,6 @@ LABORATORIO 3
 
 Dato l’array del punto precedente, fare in modo che 
     - Gli elementi in posizione pari siano stampati in UPPER CASE
-    - Gli elementi in posizione dispari in lower case
+    - Gli elementi in posizion  e dispari in lower case
 
 Se l’elemento dell’array contiene la ‘@’ oppure ha più di 5 lettere, stamparla al contrario

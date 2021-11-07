@@ -4,6 +4,7 @@
     Anno di Nascita
     Mese di Nascita
 
+
 2) Dopo il redirect nella pagina di feedback (nella action), stampare la prima parte del codice fiscale ottenuto con questi i dati
 
     Algoritmo codice fiscale 
@@ -12,6 +13,8 @@
 
     Fermarsi al calcolo del mese di nascita
 
+
+Per il momento ignorate il punto 3
 3) Prevedere un controllo nella stessa pagina prima dell'invio: 
     2.1 - Controllo se tutti i dati siano presenti
         2.1.1 - Stampa messaggio di errore nel caso non sia presente un campo
