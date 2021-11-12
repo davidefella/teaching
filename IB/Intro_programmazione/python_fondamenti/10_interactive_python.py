@@ -10,3 +10,9 @@ from math import factorial as fac
 
 
 """
+
+
+#sono un bellissimo commento 
+def stampamivalore(a):
+    a = 0
+    print(a)

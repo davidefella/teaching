@@ -14,7 +14,21 @@
        
     for($i=0; $i<count($tmp_array); $i++){
         if( is_even($i)){      
-            stampa_elemento_con_tag(stampa_reverso($tmp_array[$i]) ? strrev( strtoupper($tmp_array[$i])) : strtoupper($tmp_array[$i])); 
+
+            $stampa_stringa_reverso = stampa_reverso($tmp_array[$i]); 
+            /**
+             * Nota,i due rami dell'if sono molto simili, sono scritti in maniera più 
+             * o meno compatta per dimostrare come si può scrivere codice in maniera
+             * alternativa
+             */
+            if( $stampa_stringa_reverso == True){
+                $string_upper = strtoupper($tmp_array[$i]); 
+                $string_upper_and_rev = strrev($string_upper); 
+                stampa_elemento_con_tag($string_upper_and_rev);
+            } else {
+                stampa_elemento_con_tag(strtoupper($tmp_array[$i]));
+            }
+
         } else { 
             stampa_elemento_con_tag(stampa_reverso($tmp_array[$i]) ? strrev( strtolower($tmp_array[$i])) : strtolower($tmp_array[$i])); 
         } 

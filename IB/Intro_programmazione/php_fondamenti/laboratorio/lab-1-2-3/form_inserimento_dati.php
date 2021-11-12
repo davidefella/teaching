@@ -57,7 +57,7 @@
 	</head>
 
 	<body>
-		<form action="action_esercizio4.php" method="post">
+		<form action="action_esercizio3.php" method="post">
 			<ul>	
 				<li>
 					<label for="nome">Nome:</label>

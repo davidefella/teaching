@@ -1,0 +1,44 @@
+1. Scrivi un programma PHP per verificare se una persona può votare o meno.
+    Condizioni
+        L'età minima richiesta per votare è 18 anni.
+
+
+2. Scrivere un programma per mostrare il giorno della settimana (ad esempio: lunedì) 
+basato su numeri utilizzando istruzioni switch / case dentro una funzione da richiamare nello script.
+
+    2.1 utilizzando la classe DateTime(), ricavare il giorno della settimana (numero) e stampare la stringa
+        es: oggi è venerd', quindi giorno numero 5 della settimana --> "venerdì"
+
+
+3. Scrivi un programma per calcolare il fattoriale di un numero usando il ciclo for in php.
+    Per definizione il fattoriale di un numero è il prodotto che otteniamo moltiplicando tale numero per 
+    tutti i numeri (interi e positivi, cioè maggiori di zero) che sono minori del numero stesso
+
+    es: 3! = 3 * 2 * 1 = 6
+    es: 5! = 5 * 4 * 3 * 2 * 1
+    es: 0! = 1
+
+
+4. Scrivi un programma per creare il seguente pattern usando i cicli for:
+    *
+    **
+    ***
+    ****
+    *****
+    ******
+    *******
+    ********
+
+
+5.Scrivi un programma in PHP per rimuovere un elemento specifico per valore da un array.
+
+    Istruzioni:
+        Definisci un array con un elenco di nomi di mesi.
+        Definisci una variabile con il nome del valore da eliminare.
+        Puoi utilizzare il ciclo foreach.
+
+
+6. Definire una funzione che prende in input due array, e restituisca True se uno è sottoinsieme dell'altro
+    - Senza utilizzare la funzione array_intersect di php : )
+
+7. 
