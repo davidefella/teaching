@@ -40,5 +40,3 @@ basato su numeri utilizzando istruzioni switch / case dentro una funzione da ric
 
 6. Definire una funzione che prende in input due array, e restituisca True se uno è sottoinsieme dell'altro
     - Senza utilizzare la funzione array_intersect di php : )
-
-7. 
