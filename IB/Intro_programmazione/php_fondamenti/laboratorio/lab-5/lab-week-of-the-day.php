@@ -1,6 +1,16 @@
 <?php 
     $now = new DateTime();
-    echo getDay($now->format('N'));
+
+    #var_dump($now); 
+
+
+    
+
+        $timestamp = time();
+        echo date('l, j F Y', $timestamp);
+  
+
+    //echo getDay($now->format('N'));
 
     function getDay($numerOfTheWeek){
         $dayOfTheWeek = Null; 
