@@ -1,0 +1,86 @@
+01 - Stampare i primi 10 numeri naturali usando prima un ciclo while e poi un ciclo for
+
+
+02 - Scrivere un programma che stampi 100 volte a video il tuo nome, con un ciclo while e poi con un ciclo for
+
+
+03 - Calcolare la somma di tutti i numeri da 1 al numero dato in input
+    - Se l'utente inserisce 10, il risultato che vogliamo ottenere sarà 55
+
+    Approccio 1: 
+        - Crea una variabile "somma" per memorizzare la somma di tutti i numeri 
+        - Usa la funzione "input" per prendere il numero dall'utente
+        - Converti l'input dell'utente utilizzanto la funzione int()
+        - Fai ciclo n volte usando il ciclo for e la funzione python range
+        - Ad ogni iterazione del ciclo, aggiungi il numero corrente alla variabile "somma"
+        - Usa la funzione print() per visualizzare la variabile "somma"
+
+
+04 - Scrivere un programma per stampare la relativa tabella di moltiplicazione. 
+    - Se l'utente inserisce "2" l'output che vogliamo sarà
+        2
+        4
+        6
+        8
+        10
+        12
+        14
+        16
+        18
+        20 
+
+
+05 - Scrivere un programma che calcola la lunghezza di una stringa di input
+    - es: input: "davide"
+    - output: 6
+
+    Approccio 1: usare la funzione python "len"
+    Approccio 2: usando un ciclo for e una variabile contatore 
+
+
+06 - Scrivere un programma che data una stringa in input, la stampi prima tutti in UpperCase e successivamente
+    in lowercase
+        - es: input: "Davide"
+        - output: DAVIDE
+                  davide
+
+
+07 - Scrivere un programma che data una stringa in input, stampi solo le lettere in posizione pari
+    - es: input: "Davide"
+    - output: Dvd
+
+
+08 - Scrivi una funzione Python per ottenere una stringa composta da 4 copie degli ultimi due caratteri di 
+una stringa specificata (la lunghezza deve essere almeno 2)
+    - 'Python' -> onononon
+    - 'Davide' -> dededede
+
+
+09 - Scrivere un programma che presa in input una stringa, ritorni True oppure False se la stringa è un 
+multiplo di 4
+
+
+10 - Scrivere un programma Python per ordinare una stringa in ordine lessicografica
+    es: w3resource --> ['3', 'c', 'e', 'e', 'o', 'r', 'r', 's', 'u', 'w']  
+    es: quickbrown --> ['b', 'c', 'i', 'k', 'n', 'o', 'q', 'r', 'u', 'w']
+
+
+11 - Scrivere una funzione Python che controlla se una stringa inizia un carattere passato in input. 
+Stampare True se vero
+
+
+12 - Scrivere una funzione Python che stampi (arrotondando in maniera opportuna) al massimo fino ai primi 
+due numeri dopo la virgola di un numero decimale.
+
+    suggerimento: funzione format di python, per selezionare solo le due cifre usate {:.2f}
+
+    es: 3.1415926 -> 3.14 
+        12.9999   -> 13.00
+
+13 - Scrivere un programma Python per stampare i seguenti numeri interi con zeri a sinistra della larghezza 
+specificata.
+    
+    es: 3    --> 03
+        123  --> 000123
+
+
