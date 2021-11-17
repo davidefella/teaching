@@ -6,7 +6,7 @@
 
 03 - Calcolare la somma di tutti i numeri da 1 al numero dato in input
     - Se l'utente inserisce 10, il risultato che vogliamo ottenere sarà 55
-
+    
     Approccio 1: 
         - Crea una variabile "somma" per memorizzare la somma di tutti i numeri 
         - Usa la funzione "input" per prendere il numero dall'utente
