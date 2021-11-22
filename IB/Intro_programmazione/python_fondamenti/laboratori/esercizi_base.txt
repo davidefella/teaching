@@ -1,3 +1,5 @@
+https://bit.ly/3FlGLJm
+
 01 - Stampare i primi 10 numeri naturali usando prima un ciclo while e poi un ciclo for
 
 
@@ -91,3 +93,22 @@ specificata.
 
     14.1  Data la funzione precedente, renderla generica in modo da accettare una lettera come secondo parametro
         niente_e(parola, carattere_vietato)
+
+
+15 - Vogliamo un programma che, preso in input dall’utente un numero intero maggiore di zero n, aggiunga ad una 
+lista i numeri pari e successivamente con un ciclo stampare gli elementi di questa lista. 
+
+16 - Dato il punto 15, aggiungere ad una lista anche i numeri dispari 
+
+17 - Dato il punto 16, stampare la somma dei numeri pari e la somma dei numeri dispari
+
+18 - Popolare una lista di n elementi con i primi n numeri pari. Dopo averli inseriti visualizzare 
+in output i valori memorizzati nella lista e la loro posizione.
+
+    - input:    10 
+    - output:   Elemento in posizione 0: 0
+                Elemento in posizione 1: 2
+                Elemento in posizione 2: 4
+                Elemento in posizione 3: 6
+                Elemento in posizione 4: 8
+                Elemento in posizione 5: 10
