@@ -182,5 +182,5 @@ for i in range(0,n+1):
 
 contatore = 0
 for numero_pari in lista_pari: 
+    print ("Elemento in posizione " + str(contatore) + ": " + str(numero_pari))
     contatore = contatore +1
-    print ("Elemento in posizione " + str(contatore-1) + ": " + str(numero_pari))
