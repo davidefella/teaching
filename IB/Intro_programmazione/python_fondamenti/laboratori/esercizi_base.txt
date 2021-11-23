@@ -79,13 +79,11 @@ due numeri dopo la virgola di un numero decimale.
     es: 3.1415926 -> 3.14 
         12.9999   -> 13.00
 
-
 13 - Scrivere un programma Python per stampare i seguenti numeri interi con zeri a sinistra della larghezza 
 specificata.
     
     es: 3    --> 03
         123  --> 000123
-
 
 14 - Scrivere una funzione "niente_e" che restituisca False se la parola contiene almeno una 'e', True altrimenti
      es: casa   --> True
@@ -93,7 +91,6 @@ specificata.
 
     14.1  Data la funzione precedente, renderla generica in modo da accettare una lettera come secondo parametro
         niente_e(parola, carattere_vietato)
-
 
 15 - Vogliamo un programma che, preso in input dall’utente un numero intero maggiore di zero n, aggiunga ad una 
 lista i numeri pari e successivamente con un ciclo stampare gli elementi di questa lista. 
@@ -112,3 +109,24 @@ in output i valori memorizzati nella lista e la loro posizione.
                 Elemento in posizione 3: 6
                 Elemento in posizione 4: 8
                 Elemento in posizione 5: 10
+
+
+19 -Prendere in input 10 numeri dal terminale e inserirli in 
+una lista. Stampare la sommatoria di questa lista
+
+    0, 1, 1, 0, 0, 10, 2, 20, 0, 1
+    35
+
+
+20 - Date in input due liste di elementi da terminale, tornare una lista in output che sia la differenza della prima
+con la seconda
+    es:      ["a", "b", "c", "d"]
+             ["a", "b"]
+
+    output    ["c", "d"]
+
+
+21 - Scrivi un programma Python per trovare l'elenco di parole più lunghe di n da un determinato elenco di parole.
+
+
+

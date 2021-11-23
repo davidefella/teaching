@@ -184,3 +184,48 @@ contatore = 0
 for numero_pari in lista_pari: 
     print ("Elemento in posizione " + str(contatore) + ": " + str(numero_pari))
     contatore = contatore +1
+
+
+#19 -Prendere in input 10 numeri dal terminale e inserirli in una lista. Stampare la sommatoria di questa lista
+lista_numeri = []
+sommatoria = 0
+
+while( len(lista_numeri) < 11): 
+    n = int(input("Inserisci numero"))
+    lista_numeri.append(n)
+
+for numero in lista_numeri: 
+    sommatoria = sommatoria + numero
+
+#print(sommatoria)
+
+
+#20 - Date in input due liste di elementi da terminale, tornare una lista in output che sia la differenza della prima
+#con la seconda
+#    es:      ["a", "b", "c", "d"]
+#             ["a", "b"]
+#    output    ["c", "d"]
+l1 = int(input("Inserisci lunghezza lista 1: "))
+lista1 = []
+l2 = int(input("Inserisci lunghezza lista 2: "))
+lista2 = []
+
+lista_result = []
+
+for i in range(0, l1):
+    s = input("Inserisci elemento in posizione " + str(i) + ": ")
+    lista1.append(s)
+
+for i in range(0, l2):
+    s = input("Inserisci elemento in posizione " + str(i) + ": ")
+    lista2.append(s)
+
+#SOLUZIONE 1 
+for element_l1 in lista2: 
+    while element_l1 in lista1: 
+        lista1.remove(element_l1)
+
+#SOLUZIONE 2
+for element_l1 in lista1: 
+    if element_l1 not in lista2: 
+        lista_result.append(element_l1)
