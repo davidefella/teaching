@@ -1,5 +1,14 @@
 https://bit.ly/3FlGLJm
 
+Risorse utili: 
+https://www.html.it/pag/15613/liste/
+https://www.html.it/pag/15615/tuple/
+
+https://www.atlassian.com/git/tutorials/what-is-version-control
+
+
+
+
 01 - Stampare i primi 10 numeri naturali usando prima un ciclo while e poi un ciclo for
 
 
@@ -127,6 +136,20 @@ con la seconda
 
 
 21 - Scrivi un programma Python per trovare l'elenco di parole più lunghe di n da un determinato elenco di parole.
+
+22 Scrivi un programma Python per convertire un elenco di caratteri in una stringa
+
+
+23 - Scrivere un programma Python per aggiungere un elemento preso in input in una tupla
+
+24 - Scrivi un programma Python per trovare gli elementi ripetuti di una tupla
+
+25 - Scrivi un programma Python per rimuovere un elemento da una tupla
+
+26 - Scrivere un programma Python per invertire una tupla di elementi presi in input
+
+
+
 
 
 
