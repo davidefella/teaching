@@ -229,3 +229,76 @@ for element_l1 in lista2:
 for element_l1 in lista1: 
     if element_l1 not in lista2: 
         lista_result.append(element_l1)
+
+
+#21 Scrivi un programma Python per trovare l'elenco di parole più lunghe di n da un 
+# determinato elenco di parole.
+def long_words(n, str):
+    word_len = []
+    txt = str.split(" ")
+    for x in txt:
+        if len(x) > n:
+            word_len.append(x)
+    return word_len	
+print(long_words(3, "The quick brown fox jumps over the lazy dog"))
+
+#22 Scrivi un programma Python per convertire un elenco di caratteri in una stringa
+def convertListToString(): 
+    s = ['a', 'b', 'c', 'd']
+    str1 = ''.join(s)
+    print(str1)
+
+    #oppure 
+    input_list = []
+    while (len(input_list)<4): 
+        input_list.append(input("inserisci input"))
+
+    s = ""
+    for carattere in input_list: 
+        s = s + carattere
+
+#23 Scrivere un programma Python per aggiungere un elemento preso in input in una tupla
+#create a tuple
+tuplex = (4, 6, 2, 8, 3, 1) 
+#print(tuplex)
+#tuples are immutable, so you can not add new elements
+#using merge of tuples with the + operator you can add an element and it will create a new tuple
+tuplex = tuplex + (9,)
+#print(tuplex)
+#adding items in a specific index
+tuplex = tuplex[:5] + (15, 20, 25) + tuplex[:5]
+#print(tuplex)
+#converting the tuple to list
+listx = list(tuplex) 
+#use different ways to add items in list
+listx.append(30)
+tuplex = tuple(listx)
+#print(tuplex)
+
+
+#24 Scrivi un programma Python per trovare gli elementi ripetuti di una tupla
+tuplex = (2, 4, 5, 6, 2, 3, 4, 4, 7)
+print(tuplex)
+#return the number of times it appears in the tuple.
+count = tuplex.count(4)
+print(count)
+
+#25 Scrivi un programma Python per rimuovere un elemento da una tupla7
+#create a 
+tuplex = ("w", 3, "r", "s", "o", "u", "r", "c", "e")
+print(tuplex)
+#tuples are immutable, so you can not remove elements
+#using merge of tuples with the + operator you can remove an item and it will create a new tuple
+tuplex = tuplex[:2] + tuplex[3:]
+print(tuplex)
+
+#26 - Scrivere un programma Python per invertire una tupla di elementi presi in input
+x = ("w3resource")
+# Reversed the tuple
+y = reversed(x)
+print(tuple(y))
+#create another tuple
+x = (5, 10, 15, 20)
+# Reversed the tuple
+y = reversed(x)
+print(tuple(y))
