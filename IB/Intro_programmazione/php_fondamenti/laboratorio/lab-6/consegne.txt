@@ -1,0 +1,7 @@
+
+Ecco l'elenco, questa volta includendo paesi e città:
+Tokyo, Giappone; Città del Messico, Messico; New York, Stati Uniti d'America; Bombay, India; Seoul, Corea; Shanghai, Cina; Lagos, Nigeria; Buenos Aires, Argentina; Cairo, Egitto; Londra, Inghilterra.
+
+Segui questa richiesta con un campo di selezione per le 10 città, con le opzioni create scorrendo l'array. 
+Quando l'utente fa clic sul pulsante di invio, restituisce l'istruzione $city is in $country., 
+dove $city è il valore scelto dall'utente e $country è la sua chiave.
