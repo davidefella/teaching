@@ -280,14 +280,14 @@ def multidimensional(list_element):
 #n = int(input("Quanti elementi per sottolista?")) 
 #print(multidimensional(n)) 
 
-#25 Scrivi un programma Python per creare una griglia 3X3 con numeri.
-def matrix_3_for_3(): 
+#25 Scrivi un programma Python per creare una griglia NXN con numeri.
+def matrix_n_for_n(n): 
     nums = []
-    for i in range(3):
+    for i in range(n):
         nums.append([])
-        for j in range(1, 4):
+        for j in range(1, n+1):
             nums[i].append(j)
-    print("3X3 grid with numbers:")
+    print("nXn grid with numbers:")
     print(nums)
 
 
