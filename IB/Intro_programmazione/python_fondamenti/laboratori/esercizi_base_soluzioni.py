@@ -268,12 +268,17 @@ result = random_select_nums(n_list, selec_nums)
 
 
 #24 Scrivere un programma Python per creare una lista multidimensionale (liste di liste) con zeri.
-def multidimensional():
+def multidimensional(list_element):
     nums = []
     for i in range(3):
         nums.append([])
-        for j in range(2):
+        for j in range(list_element):
             nums[i].append(0)
+
+    return nums
+
+#n = int(input("Quanti elementi per sottolista?")) 
+#print(multidimensional(n)) 
 
 #25 Scrivi un programma Python per creare una griglia 3X3 con numeri.
 def matrix_3_for_3(): 
