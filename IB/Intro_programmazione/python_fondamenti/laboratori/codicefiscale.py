@@ -1,5 +1,6 @@
 #Questo è un algoritmo base per il calcolo del codice fiscale. Come 
 #esercizio modificarlo per completare le parti mancanti 
+#commento di test
 
 def prendiConsonanti(s):
     numero_caratteri = 0
