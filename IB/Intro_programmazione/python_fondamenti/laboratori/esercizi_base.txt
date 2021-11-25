@@ -136,9 +136,9 @@ con la seconda
 
 21 - Scrivi un programma Python per trovare l'elenco di parole più lunghe di n da un determinato elenco di parole.
 
-22 - Scrivi un programma Python per convertire un elenco di caratteri in una stringa
+22 - Scrivi un programma Python per convertire una lista di caratteri in una stringa
 
-23 - Scrivi un programma Python per estrarre un dato numero di elementi selezionati casualmente da una data lista
+23 - Scrivi un programma Python per estrarre un dato numero di elementi (preso in input) selezionati casualmente da una data lista
 
 24 - Scrivere un programma Python per creare una lista multidimensionale (liste di liste) con zeri.
      output: [[0, 0], [0, 0], [0, 0]]
@@ -147,6 +147,7 @@ con la seconda
      3X3 grid with numbers:
      [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
      
+
 
 26 - Scrivere un programma Python per aggiungere un elemento preso in input in una tupla
 
@@ -157,7 +158,15 @@ con la seconda
 29 - Scrivere un programma Python per invertire una tupla di elementi presi in input
 
 
+30 - Scrivere una funzione python per aggiungere una chiave presa in input da terminale ad un dizionario 
+    es dictionary = {0:"a", 1:"b"}
+        2, "c"
+        dictionary = {0:"a", 1:"b", 2:"c"}
 
+
+31 - Scrivi un programma Python per scorrere i dizionari usando un loop
+        d = {'x': 10, 'y': 20, 'z': 30}
+        
 
 
 

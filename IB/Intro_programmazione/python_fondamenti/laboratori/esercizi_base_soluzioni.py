@@ -257,34 +257,56 @@ def convertListToString():
     for carattere in input_list: 
         s = s + carattere
 
-#23 Scrivere un programma Python per aggiungere un elemento preso in input in una tupla
-#create a tuple
+
+#23 Scrivi un programma Python per estrarre un dato numero di elementi selezionati casualmente da una data lista.
+import random
+def random_select_nums(n_list, n):
+        return random.sample(n_list, n)
+n_list = [1,1,2,3,4,4,5,1]
+selec_nums = 3
+result = random_select_nums(n_list, selec_nums)
+
+
+#24 Scrivere un programma Python per creare una lista multidimensionale (liste di liste) con zeri.
+def multidimensional():
+    nums = []
+    for i in range(3):
+        nums.append([])
+        for j in range(2):
+            nums[i].append(0)
+
+#25 Scrivi un programma Python per creare una griglia 3X3 con numeri.
+def matrix_3_for_3(): 
+    nums = []
+    for i in range(3):
+        nums.append([])
+        for j in range(1, 4):
+            nums[i].append(j)
+    print("3X3 grid with numbers:")
+    print(nums)
+
+
+
+#26 Scrivere un programma Python per aggiungere un elemento preso in input in una tupla
 tuplex = (4, 6, 2, 8, 3, 1) 
-#print(tuplex)
 #tuples are immutable, so you can not add new elements
 #using merge of tuples with the + operator you can add an element and it will create a new tuple
 tuplex = tuplex + (9,)
-#print(tuplex)
 #adding items in a specific index
 tuplex = tuplex[:5] + (15, 20, 25) + tuplex[:5]
-#print(tuplex)
 #converting the tuple to list
 listx = list(tuplex) 
 #use different ways to add items in list
 listx.append(30)
 tuplex = tuple(listx)
-#print(tuplex)
 
 
-#24 Scrivi un programma Python per trovare gli elementi ripetuti di una tupla
+#27 Scrivi un programma Python per trovare gli elementi ripetuti di una tupla
 tuplex = (2, 4, 5, 6, 2, 3, 4, 4, 7)
-print(tuplex)
 #return the number of times it appears in the tuple.
 count = tuplex.count(4)
-print(count)
 
-#25 Scrivi un programma Python per rimuovere un elemento da una tupla7
-#create a 
+#28 Scrivi un programma Python per rimuovere un elemento da una tupla7
 tuplex = ("w", 3, "r", "s", "o", "u", "r", "c", "e")
 print(tuplex)
 #tuples are immutable, so you can not remove elements
@@ -292,7 +314,7 @@ print(tuplex)
 tuplex = tuplex[:2] + tuplex[3:]
 print(tuplex)
 
-#26 - Scrivere un programma Python per invertire una tupla di elementi presi in input
+#29 - Scrivere un programma Python per invertire una tupla di elementi presi in input
 x = ("w3resource")
 # Reversed the tuple
 y = reversed(x)
@@ -301,4 +323,17 @@ print(tuple(y))
 x = (5, 10, 15, 20)
 # Reversed the tuple
 y = reversed(x)
-print(tuple(y))
+
+
+
+#30 Scrivere una funzione python per aggiungere una chiave presa in input da terminale ad un dizionario 
+d = {0:10, 1:20}
+print(d)
+d.update({2:30})
+print(d)
+
+#31
+def iteraterate_overdictionary():
+    d = {'x': 10, 'y': 20, 'z': 30} 
+    for dict_key, dict_value in d.items():
+        print(dict_key,'->',dict_value)
