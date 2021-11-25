@@ -143,9 +143,11 @@ con la seconda
 24 - Scrivere un programma Python per creare una lista multidimensionale (liste di liste) con zeri.
      output: [[0, 0], [0, 0], [0, 0]]
 
-25 - Scrivi un programma Python per creare una griglia 3X3 con numeri.
-     3X3 grid with numbers:
-     [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+25 - Scrivi un programma Python per creare una griglia nXn con numeri.
+     es: 3 
+        [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+     es: 4
+        [[1, 2, 3,4], [1, 2, 3,4], [1, 2, 3,4], [1, 2, 3,4]]
      
 
 
@@ -166,7 +168,7 @@ con la seconda
 
 31 - Scrivi un programma Python per scorrere i dizionari usando un loop
         d = {'x': 10, 'y': 20, 'z': 30}
-        
+
 
 
 
