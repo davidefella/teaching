@@ -134,22 +134,31 @@ con la seconda
 
     output    ["c", "d"]
 
-
 21 - Scrivi un programma Python per trovare l'elenco di parole più lunghe di n da un determinato elenco di parole.
 
-22 Scrivi un programma Python per convertire un elenco di caratteri in una stringa
+22 - Scrivi un programma Python per convertire un elenco di caratteri in una stringa
+
+23 - Scrivi un programma Python per estrarre un dato numero di elementi selezionati casualmente da una data lista
+
+24 - Scrivere un programma Python per creare una lista multidimensionale (liste di liste) con zeri.
+     output: [[0, 0], [0, 0], [0, 0]]
+
+25 - Scrivi un programma Python per creare una griglia 3X3 con numeri.
+     3X3 grid with numbers:
+     [[1, 2, 3], [1, 2, 3], [1, 2, 3]]
+     
+
+26 - Scrivere un programma Python per aggiungere un elemento preso in input in una tupla
+
+27 - Scrivi un programma Python per trovare gli elementi ripetuti di una tupla
+
+28 - Scrivi un programma Python per rimuovere un elemento da una tupla
+
+29 - Scrivere un programma Python per invertire una tupla di elementi presi in input
 
 
-23 - Scrivere un programma Python per aggiungere un elemento preso in input in una tupla
-
-24 - Scrivi un programma Python per trovare gli elementi ripetuti di una tupla
-
-25 - Scrivi un programma Python per rimuovere un elemento da una tupla
-
-26 - Scrivere un programma Python per invertire una tupla di elementi presi in input
 
 
 
 
-
-
+ 
