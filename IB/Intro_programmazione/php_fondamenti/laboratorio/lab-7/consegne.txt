@@ -1,0 +1,39 @@
+https://guidaphp.it/base/variabili-superglobali/sessioni
+
+1. Implementare una form che preso in input un valore da text, ne stampi il valore in una seconda pagina html: 
+    a) La pagina definita nella action deve essere la stessa della pagina che contiene la form 
+    b) nell'intestazione di questa pagina, usare il seguente codice per il redirect 
+        header("Location: action_lab_7.php");
+        exit();
+    c) Aggiungere il dato inserito dall'utente all'array $_SESSION["favcolor"]
+
+
+2. Crea una form per "conto alla rovescia per il compleanno", lo script conterà il numero di giorni tra il giorno corrente e il compleanno: 
+    a) nella form prevedere inserimento di 3 field: giorno, mese e anno del compleanno 
+
+
+3. Scrivere uno script PHP per convertire una data da aaaa-mm-gg a gg-mm-aaaa.
+
+
+4. Scrivi uno script PHP per calcolare il numero di giorni tra due date.
+
+7. Scrivi uno script PHP che arrotonda i seguenti valori con una precisione di 1 cifra decimale.
+    1.65   => 1.7 
+    1.65   => 1.6 
+    -1.54  => -1.5                                                 
+                                                    
+
+5. Scrivere un programma PHP che dato un array di N elementi, stampi M elementi random di questo array 
+    es: array_input = ['a', 'a', 'b', 'c', 'd']
+        M = 3
+        output: ['a', 'a', 'c']
+
+
+6. Dato il punto 5, vogliamo che in output non ci siano numeri ripetuti.
+    es: array_input = ['a', 'a', 'b', 'c', 'd']
+        M = 3
+        output: ['a', 'a', 'c']
+
+
+
+
