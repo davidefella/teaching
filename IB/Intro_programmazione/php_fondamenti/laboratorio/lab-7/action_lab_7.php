@@ -1,5 +1,5 @@
 <?php
-session_destroy();
+//session_destroy();
 ?>
 <!DOCTYPE html>
 <html>
@@ -7,8 +7,7 @@ session_destroy();
 
 <?php
 // Echo session variables that were set on previous page
-echo "Favorite color is " . $_SESSION["favcolor"] . ".<br>";
-echo "Favorite animal is " . $_SESSION["favanimal"] . ".";
+    echo "Il tuo nome utente è " . $_SESSION["nome_utente"] . ".<br>";
 ?>
 
 </body>

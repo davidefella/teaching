@@ -15,8 +15,6 @@ https://guidaphp.it/base/variabili-superglobali/sessioni
 3. Scrivere uno script PHP per convertire una data da aaaa-mm-gg a gg-mm-aaaa.
 
 
-4. Scrivi uno script PHP per calcolare il numero di giorni tra due date.
-
 7. Scrivi uno script PHP che arrotonda i seguenti valori con una precisione di 1 cifra decimale.
     1.65   => 1.7 
     1.65   => 1.6 

@@ -1,6 +1,6 @@
 <!-- Crea una form per "conto alla rovescia per il compleanno" --> 
 <?php
-    $target_days = mktime(0,0,0,07,18,2022);// modify the birth day 12/31/2013
+    $target_days = mktime(0,0,0,07,18,2022);
     $today = time();
     $diff_days = ($target_days - $today);
     $days = (int)($diff_days/86400);
@@ -14,13 +14,6 @@
     echo $newDate."\n";
 ?>
 
-<!-- Scrivi uno script PHP per calcolare il numero di giorni tra due date. -->
-<?php
-    $to_date = time(); // Input your date here e.g. strtotime("2014-01-02")
-    $from_date = strtotime("2012-01-31");
-    $day_diff = $to_date - $from_date;
-    echo floor($day_diff/(60*60*24))."\n";
-?>
 
 <?php 
     $input = array("Neo", "Neo", "Neo", "Neo", "Neo");
