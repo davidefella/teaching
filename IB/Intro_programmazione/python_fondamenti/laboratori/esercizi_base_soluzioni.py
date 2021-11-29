@@ -261,7 +261,7 @@ def convertListToString():
 #23 Scrivi un programma Python per estrarre un dato numero di elementi selezionati casualmente da una data lista.
 import random
 def random_select_nums(n_list, n):
-        return random.sample(n_list, n)
+    return random.sample(n_list, n)
 n_list = [1,1,2,3,4,4,5,1]
 selec_nums = 3
 result = random_select_nums(n_list, selec_nums)
@@ -329,16 +329,28 @@ x = (5, 10, 15, 20)
 # Reversed the tuple
 y = reversed(x)
 
+#30 Scrivi un programma python per controllare se un dizionario è vuoto
+my_dict = {}
 
+if not bool(my_dict):
+    print("Dictionary is empty") 
 
-#30 Scrivere una funzione python per aggiungere una chiave presa in input da terminale ad un dizionario 
+#31 Scrivere una funzione python per aggiungere una chiave presa in input da terminale ad un dizionario 
 d = {0:10, 1:20}
 print(d)
 d.update({2:30})
 print(d)
 
-#31
+#32
 def iteraterate_overdictionary():
     d = {'x': 10, 'y': 20, 'z': 30} 
     for dict_key, dict_value in d.items():
         print(dict_key,'->',dict_value)
+
+#33 Scrivi un programma Python per creare un dizionario da una stringa
+def convert_to_string():
+    str1 = 'w3resource' 
+    my_dict = {}
+    for letter in str1:
+        my_dict[letter] = my_dict.get(letter, 0) + 1
+    print(my_dict)
