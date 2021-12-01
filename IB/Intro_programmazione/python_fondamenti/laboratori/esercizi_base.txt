@@ -176,6 +176,16 @@ con la seconda
 
 
 
+# NEW
 
+34 - Dato un array di 10 interi, ordinarlo applicando l'algoritmo del bubble sort 
 
- 
+35 - Dato un array di 10 interi, ordinarlo applicando l'algoritmo del selection sort
+
+36 - Dato un array di 10 interi, ordinalro applicando l'algoritmo dell'insertion sort 
+
+37 - Dato un intero, restituisce l'intero con le cifre invertite. L'intero può essere positivo o negativo
+
+38 - Per una data frase, restituisce la lunghezza media della parola. Opzionale: Ricordati di rimuovere prima la punteggiatura.
+
+39 - Dato un array di numeri, scrivere una funzione per spostare tutti gli zeri alla fine di esso, mantenendo l'ordine relativo di gli elementi non-zero.

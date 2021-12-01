@@ -1,7 +1,8 @@
 <?php
 session_start();
 
-if($_SESSION["favcolor"] != "") {
+if(isset($_POST["nome_utente"])) {
+	$_SESSION["nome_utente"] = $_POST["nome_utente"]; 
     header("Location: action_lab_7.php");
     exit();
 }
@@ -28,7 +29,6 @@ if($_SESSION["favcolor"] != "") {
         <?php
         // Set session variables
         $_SESSION["favcolor"] = "green";
-        $_SESSION["favanimal"] = "cat";
         echo "Session variables are set.";
         ?>
 	</body>
