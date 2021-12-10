@@ -189,3 +189,21 @@ con la seconda
 38 - Per una data frase, restituisce la lunghezza media della parola. Opzionale: Ricordati di rimuovere prima la punteggiatura.
 
 39 - Dato un array di numeri, scrivere una funzione per spostare tutti gli zeri alla fine di esso, mantenendo l'ordine relativo di gli elementi non-zero.
+
+37 - Dato il cifrario di Cesare, scrivere un programma Python che prende in input 
+una stringa e la chiave K e calcoli la stringa codificata
+    - suggerimento1: funzione ord(char) di Python
+    - suggerimento2: 26 caratteri alfabeto
+    - suggerimento3: operatore modulo
+
+38 - Scrivi una funzione a cui viene passata una parola e
+ riconosce se si tratta di un palindromo (parole che si leggono uguali anche al contrario) oppure meno
+
+39 - Lunghezza media delle parole in una stringa
+
+40 - Primo carattere unico. Data una stringa, trova il primo carattere non ripetuto e restituisci il suo indice. Se non esiste, restituisci -1.
+     Nota: assumi che tutte le stringhe in ingresso sono già minuscole.
+
+41 - Dato un array di numeri, scrivere una funzione per spostare tutti gli zeri alla fine di esso, mantenendo l'ordine relativo di gli elementi non-zero.
+
+42 - Riempi gli spazi vuoti. Dato un array contenente valori "None", rimpizzare i valori "None" con il valore più recente non None nella lista
