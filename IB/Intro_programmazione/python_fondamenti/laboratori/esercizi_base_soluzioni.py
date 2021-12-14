@@ -354,3 +354,100 @@ def convert_to_string():
     for letter in str1:
         my_dict[letter] = my_dict.get(letter, 0) + 1
     print(my_dict)
+
+
+#37 - Cifrario di Cesare
+def encrypt(text,s):
+    result = ""
+
+    s = s % 26
+    
+    for i in range(len(text)):
+        char = text[i]
+ 
+        #  Uppercase 
+        if (char.isupper()):
+            result += chr((ord(char) + s-26))
+        # Lowercase
+        else:
+            result += chr((ord(char) + s - 26))
+ 
+    return result
+ 
+text = "z"
+s = 27
+print("Text  : " + text)
+print("Shift : " + str(s))
+print("Cipher: " + encrypt(text,s))
+
+#38 - Scrivi una funzione a cui viene passata una parola e riconosce se si tratta di un palindromo (parole che si leggono uguali anche al contrario) oppure meno
+def palindrome_check(parola):
+    indice = (len(parola) -1)
+    nuova_parola = ""
+    while indice >= 0:
+        nuova_parola += parola[indice]
+        indice -= 1
+    if nuova_parola == parola:
+        print(nuova_parola + ": la parola passata è un palindromo!")
+    else:
+        print(nuova_parola + ": mi dispiace, la parola inserita non è un palindromo...")
+
+
+#39 - Scrivere un programma che, dati i due elenchi di numeri sottostanti, crei la matrice dei loro prodotti:
+sentence1 = "Hi all, my name is Tom...I am originally from Australia."
+sentence2 = "I need to work very hard to learn more about algorithms in Python!"
+
+def solution(sentence):
+    for p in "!?',;.":
+        sentence = sentence.replace(p, '')
+    words = sentence.split()
+    return round(sum(len(word) for word in words)/len(words),2)
+
+#40 - Primo carattere unico
+def solution(s):
+    frequency = {}
+    for i in s:
+        if i not in frequency:
+            frequency[i] = 1
+        else:
+            frequency[i] +=1
+    for i in range(len(s)):
+        if frequency[s[i]] == 1:
+            return i
+    return -1
+
+print(solution('alphabet'))
+print(solution('barbados'))
+print(solution('crunchy'))
+
+print('###')
+
+#41 - Dato un array di numeri, scrivere una funzione per spostare tutti gli zeri alla fine di esso, mantenendo l'ordine relativo di gli elementi non-zero
+list1 = [0,1,0,3,12]
+list2 = [1,7,0,0,8,0,10,12,0,4]
+
+def solution(nums):
+    for i in nums:
+        if 0 in nums:
+            nums.remove(0)
+            nums.append(0)
+    return nums
+
+solution(array1)
+solution(array2)
+
+#42 - Riempi gli spazi vuoti
+list1 = [1,None,2,3,None,None,5,None]
+
+def solution(nums):
+    valid = 0            
+    res = []                 
+    for i in nums: 
+        if i is not None:    
+            res.append(i)
+            valid = i
+        else:
+            res.append(valid)
+    return res
+
+print(solution(list1))
