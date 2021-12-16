@@ -1,0 +1,99 @@
+1. Scrivere uno script Python per ordinare (ascendente e discendente) un dizionario per valore.
+
+
+2. Scrivere uno script Python per aggiungere una chiave a un dizionario.
+
+Dizionario di esempio: {0: 10, 1: 20}
+Risultato previsto: {0: 10, 1: 20, 2: 30}
+
+
+3. Scrivere uno script Python per concatenare i seguenti dizionari per crearne uno nuovo nuovo.
+
+Dizionario di esempio:
+dic1={1:10, 2:20}
+dic2={3:30, 4:40}
+dic3={5:50,6:60}
+Risultato previsto: {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+
+
+4. Scrivere uno script Python per verificare se una determinata chiave esiste già in un dizionario.
+
+
+5. Scrivere un programma Python per scorrere i dizionari utilizzando un ciclo for.
+
+
+6. Scrivere uno script Python per generare e stampare un dizionario che contenga un numero (tra 1 e n) nella forma (x, x*x).
+Dizionario di esempio ( n = 5) :
+Output previsto: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+
+7. Scrivere uno script Python per stampare un dizionario in cui le chiavi sono numeri compresi tra 1 e 15 (entrambi inclusi) ed i valori sono quadrati di chiavi.
+Dizionario di esempio
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100, 11: 121, 12: 144, 13 : 169, 14: 196, 15: 225}
+
+
+8. Scrivere uno script Python per unire due dizionari Python.
+
+
+9. Scrivere un programma Python per scorrere i dizionari utilizzando ciclo for.
+
+
+10. Scrivere un programma Python per sommare tutti gli elementi di un dizionario.
+
+
+11. Scrivere un programma Python per moltiplicare tutti gli elementi di un dizionario.
+
+
+12. Scrivere un programma Python per rimuovere una chiave da un dizionario.
+
+
+13. Scrivere un programma Python per mappare due elenchi in un dizionario.
+
+
+14. Scrivere un programma Python per ordinare un dato dizionario per chiave.
+
+
+15. Scrivere un programma Python per ottenere il valore massimo e minimo in un dizionario.
+
+
+16. Scrivere un programma Python per ottenere un dizionario dai campi di un oggetto.
+
+
+17. Scrivere un programma Python per rimuovere i duplicati dal dizionario.
+
+
+18. Scrivere un programma Python per controllare che un dizionario sia vuoto o meno.
+
+
+19. Scrivere un programma Python per combinare due dizionari aggiungendo valori per chiavi comuni.
+d1 = {'a': 100, 'b': 200, 'c':300}
+d2 = {'a': 300, 'b': 200, 'd':400}
+Esempio di output: Counter({'a': 400, 'b': 400, 'd': 400, 'c': 300})
+
+
+20. Scrivere un programma Python per stampare tutti i valori univoci in un dizionario.
+Dati di esempio: [{"V":"S001"}, {"V": "S002"}, {"VI": "S001"}, {"VI": "S005"}, {"VII":" S005"}, {"V":"S009"},{"VIII":"S007"}]
+Output previsto: valori univoci: {'S005', 'S002', 'S007', 'S001', 'S009'}
+
+
+21. Scrivere un programma Python per creare e visualizzare tutte le combinazioni di lettere, selezionando ciascuna lettera da una chiave diversa in un dizionario.
+Dati di esempio: {'1':['a','b'], '2':['c','d']}
+Uscita prevista:
+ac
+ad
+bc
+bd
+
+
+22. Scrivere un programma Python per trovare i 3 valori più alti delle chiavi corrispondenti in un dizionario.
+
+
+23. Scrivere un programma Python per combinare i valori nell'elenco dei dizionari Python.
+Dati di esempio: [{'item': 'item1', 'amount': 400}, {'item': 'item2', 'amount': 300}, {'item': 'item1', 'amount': 750 }]
+Output previsto: Counter({'item1': 1150, 'item2': 300})
+
+
+24. Scrivere un programma Python per creare un dizionario da una stringa.
+Nota: tenere traccia del conteggio delle lettere dalla stringa.
+Stringa di esempio: 'w3resource'
+Output previsto: {'w': 1, '3': 1, 'r': 2, 'e': 2, 's': 1, 'o': 1, 'u': 1, 'c': 1}
