@@ -1,6 +1,16 @@
-dic1={1:10, 2:20}
-dic2={3:30, 4:40}
-dic3={5:50,6:60}
-dic4 = {}
-for d in (dic1, dic2, dic3): dic4.update(d)
-print(dic4)
+import psycopg2
+
+con = psycopg2.connect(database="postgres", user="postgres", password="postgres", host="127.0.0.1", port="5432")
+
+print(con)
+cur = con.cursor()
+cur.execute('''CREATE TABLE STUDENT
+      (ADMISSION INT PRIMARY KEY     NOT NULL,
+      NAME           TEXT    NOT NULL,
+      AGE            INT     NOT NULL,
+      COURSE        CHAR(50),
+      DEPARTMENT        CHAR(50));''')
+print("Table created successfully")
+
+con.commit()
+con.close()
