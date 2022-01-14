@@ -1,0 +1,4 @@
+http://www.greguoldo.it/wp-content/uploads/2019/05/Teoria-Database.pdf
+https://stackabuse.com/working-with-postgresql-in-python/
+
+https://www.edutecnica.it/informatica/dbrx/dbrx.htm

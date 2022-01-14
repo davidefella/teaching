@@ -35,9 +35,6 @@ Dizionario di esempio
 8. Scrivere uno script Python per unire due dizionari Python.
 
 
-9. Scrivere un programma Python per scorrere i dizionari utilizzando ciclo for.
-
-
 10. Scrivere un programma Python per sommare tutti gli elementi di un dizionario.
 
 
