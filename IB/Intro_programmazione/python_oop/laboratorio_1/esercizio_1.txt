@@ -1,5 +1,3 @@
-Esercizio. 
-
 Effettuare un "Refactoring" del codice presente nella classe main.py secondo il paradigma OOP. 
 
 Crare una classe item.py con le seguenti caratteristiche: 
@@ -11,6 +9,7 @@ Crare una classe item.py con le seguenti caratteristiche:
     5. Prevedere una funzione "is_integer" (con decorator @staticmethod) per controllare se effettivamente un numero è un intero o meno
     6. Utilizzare la funzione is_integer descritta al punto precedente nel metodo __init__, se il numero relativa alla quantity non è un intero
     sollevare una eccezione
+    7. A scelta, se volete i dati possono essere caricati da un CSV (vedi items.csv) oppure cablati dentro il codice
 
 Alla fine dovranno essere presenti le seguenti classi: 
     1. phone.py
