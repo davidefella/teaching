@@ -3,7 +3,7 @@ class Item:
         assert price >= 0, f"Price {price} is not greater than or equal to zero!"
         assert quantity >= 0, f"Quantity {quantity} is not greater or equal to zero!"
 
-        #In alternativa, si possono usare le exceptions
+        #Nota, in alternativa, si possono usare le exceptions
         #if price < 0: 
         #    raise ValueError(f"Price {price} is not greater than or equal to zero!")
         #if quantity < 0: 
