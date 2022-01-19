@@ -1,0 +1,10 @@
+dentro la classe Item creare metodo __init__(self, name:str, price:float, quantity=0)
+
+- due controlli su price e quantity > 0 (mess di errore in caso contrario)
+	(hint: assertion)
+- assegnazione variabili di classe (self.qualcosa..)
+
+- metodo di classe calculate_total_price(self)
+	torna il prezzo per quantita
+
+Fuori dalla classe creazione di due Item e calcolo del total price

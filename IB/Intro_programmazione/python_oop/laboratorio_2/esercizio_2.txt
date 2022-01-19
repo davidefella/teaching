@@ -11,5 +11,4 @@ Il sistema deve avere le seguenti caratteristiche:
 - Possibilità di creare un conto
 - Versamento / prelievo 
 - Stampa del resoconto bancario 
-- Possibilità di creare un conto "Special" che differisce da quello base per la possiblità di 
-creare un conto con un limite di prelievo giornaliero. 
+- Possibilità di creare un conto "Special" che differisce da quello base per la possiblità di creare un conto con un limite di prelievo giornaliero. 

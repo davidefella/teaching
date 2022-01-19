@@ -1,26 +1,26 @@
-# How to create a class:
+# Come definire una classe
 class Item:
     def calculate_total_price(self, x, y):
         return x * y
 
-# How to create an instance of a class
+# Come creare una istanza della classe
 item1 = Item()
 
-# Assign attributes:
+# come assegnare un attributo a quella classe
 item1.name = "Phone"
 item1.price = 100
 item1.quantity = 5
 
-# Calling methods from instances of a class:
+# Chiamata ai metodi di quella particolare istanza:
 print(item1.calculate_total_price(item1.price, item1.quantity))
 
-# How to create an instance of a class (We could create as much as instances we'd like to)
+# Come creare una istanza della classe (Ne possiamo creare quante ne vogliamo)
 item2 = Item()
 
-# Assign attributes
+# Assegnare gli attributi
 item2.name = "Laptop"
 item2.price = 1000
 item2.quantity = 3
 
-# Calling methods from instances of a class: 
+# Chiamata ai metodi di quella particolare istanza:
 print(item2.calculate_total_price(item2.price, item2.quantity))
