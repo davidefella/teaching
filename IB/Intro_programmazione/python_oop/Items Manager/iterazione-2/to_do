@@ -16,3 +16,16 @@ Il punto di partenza è il codice nella classe itereazione-1/soluzione/main.py
 4) Modificare il metodo calculate_total_price(self) in modo da calcolare lo sconto prima del prezzo totale utilizzando il metodo scritto al punto 3
 
 5) Aggiungere il metodo __repr__ per la stampa degli attributi 
+
+
+Fuori dalla classe, il codice dovrà essere simile al seguente: 
+
+item1 = Item("Phone", 100, 1)
+item2 = Item("Laptop", 1000, 3)
+item3 = Item("Cable", 10, 5)
+item4 = Item("Mouse", 50, 5)
+item5 = Item("Keyboard", 75, 5)
+
+print(Item.all)
+for i in Item.all: 
+    print(i.name + " - " + str(i.calculate_total_price()))
