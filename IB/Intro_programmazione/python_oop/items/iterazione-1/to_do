@@ -1,12 +1,6 @@
-SCOPO DEL GIOCO. 
+**** ITERAZIONE 1 - TO DO ****
 
-Vogliamo rendere ad oggetto il codice presente dentro main.py e aggiungere delle feature al codice. 
-Il "refactoring" e l'evolutiva del codice verrà eseguita per brevi iterazioni. 
-
-Dentro ogni cartella è presente un to_do_next dono
-
-
-**** ITERAZIONE 1 ****
+Il punto di partenza è il codice nella classe main.py della cartella "getting_started"
 
 1) Dentro la classe Item scrivere il metodo __init__(self, name:str, price:float, quantity=0)
     1.1) Nel metodo __init__ prevedere due controlli sulle variabili price e quantity in modo che siano maggiori di zero
