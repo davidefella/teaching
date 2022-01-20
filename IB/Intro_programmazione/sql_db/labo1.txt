@@ -46,3 +46,14 @@ Scrivere una query che selezioni:
 17. Tutti i giorni in cui c'è stato almeno un ordine (solo data no ora e minuti)
 
 18. Tutti gli ordini a più di 6 euro e meno di 8
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+19. Rendere il campo 'id' una chiave primaria 
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+20. Rendere il campo 'id' come autoincrementatne
