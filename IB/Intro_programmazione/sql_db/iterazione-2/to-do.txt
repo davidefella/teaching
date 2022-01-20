@@ -2,6 +2,15 @@
 
 2. Rendere il campo 'id' come autoincrementante
 
-3. Rimuovere tutti i dati dalla tabella 
+3. Rimuovere tutti i dati dalla tabella "ordini"
 
-4. Fare un nuovo inserimento dei dati ma senza la colonna ID2
+5. Crare una tabella "menu" con i seguenti campi: 
+    - id --> numerico 
+    - nome_pizza --> text 
+    - prezzo --> text 
+
+6. Modificare la tabella "ordine" nel seguente modo: 
+    - Eliminare la colonna "nome_pizza"
+    - Aggiungere una chiave esterna che referenzi la chiave primaria della tabella 
+
+7. Prova ad inserire degli ordini, che criticità vedi? 

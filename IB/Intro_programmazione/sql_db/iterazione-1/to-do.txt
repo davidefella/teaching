@@ -1,6 +1,6 @@
 1. Creare un database con Postgresql chiamato "pizzeria_da_luigi" utilizzando PgAdmin (o un client a tua scelta)
 
-2. All'interno del database crea una una tabella "ordini" con i seguenti campi 
+2. All'interno del database crea una una tabella "ordine" con i seguenti campi 
     - id --> numerico 
     - nome_pizza --> text 
     - nome_cliente --> text 
@@ -15,7 +15,7 @@
 
 Scrivere una query che selezioni: 
 
-4. tutte le colonne dalla tabella "ordini" senza ordinamento o selezioni 
+4. tutte le colonne dalla tabella "ordine" senza ordinamento o selezioni 
 
 5. solamente le colonne "id", "totale_ordine", "data_ordine"
 
