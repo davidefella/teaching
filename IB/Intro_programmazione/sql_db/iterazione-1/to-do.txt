@@ -1,7 +1,7 @@
 1. Creare un database con Postgresql chiamato "pizzeria_da_luigi" utilizzando PgAdmin (o un client a tua scelta)
 
 2. All'interno del database crea una una tabella "ordine" con i seguenti campi 
-    - id --> numerico 
+    - id --> numerico non nullo
     - nome_pizza --> text 
     - nome_cliente --> text 
     - data_ordine --> datetime

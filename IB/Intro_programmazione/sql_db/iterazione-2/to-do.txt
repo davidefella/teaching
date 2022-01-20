@@ -9,8 +9,8 @@
     - nome_pizza --> text 
     - prezzo --> text 
 
-6. Modificare la tabella "ordine" nel seguente modo: 
+5. Modificare la tabella "ordine" nel seguente modo: 
     - Eliminare la colonna "nome_pizza"
     - Aggiungere una chiave esterna che referenzi la chiave primaria della tabella 
 
-7. Prova ad inserire degli ordini, che criticità vedi? 
+6. Prova ad inserire degli ordini, che criticità vedi? 
