@@ -1,0 +1,7 @@
+1. Rendere il campo 'id' una chiave primaria 
+
+2. Rendere il campo 'id' come autoincrementante
+
+3. Rimuovere tutti i dati dalla tabella 
+
+4. Fare un nuovo inserimento dei dati ma senza la colonna ID2
