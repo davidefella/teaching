@@ -60,4 +60,5 @@ SELECT distinct date(data_ordine) from "ordine"
 --18 Tutti gli ordini a più di 6 euro e meno di 8
 SELECT * FROM "ordine" where totale_ordine > 6 and totale_ordine < 8
 
-
+--19
+select * from "ordine"  order by "ordine".data_ordine DESC limit 5
