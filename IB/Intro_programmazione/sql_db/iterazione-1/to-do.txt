@@ -8,10 +8,10 @@
     - totale_ordine --> decimal(10,2)
 
 3. Popolare la tabella con almeno 10 righe (ripetere almeno una volta il nome della pizza e/o il nome cliente)
-    es: 0, "Margherita", "Davide", 14/01/2022 20:05, 5.5
-        1, "Peperoni", "Davide", 14/01/2022 21:00, 7
-        2, "Margherita", "Marco", 14/01/2022 19:45, 5.5
-        3, "4 Formaggi", "Carla", 15/01/2022 21:05, 8
+    es: 0, "Margherita", "Davide", "14/01/2022 20:05", 5.5
+        1, "Peperoni", "Davide", "14/01/2022 21:00", 7
+        2, "Margherita", "Marco", "14/01/2022 19:45", 5.5
+        3, "4 Formaggi", "Carla", "15/01/2022 21:05", 8
 
 Scrivere una query che selezioni: 
 
