@@ -39,7 +39,7 @@ Scrivere una query che selezioni:
 
 14. Il totale dei prezzi per una singola giornata
 
-15. La media dell'incasso giornalieria 
+15. La media del totale per ogni ordini
 
 16. Il massimo ordine di ogni cliente 
 
