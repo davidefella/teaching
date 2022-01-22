@@ -15,8 +15,7 @@
 
 Scrivere una query che selezioni: 
 
-4. tutte le colonne dalla tabella "ordine" senza ordinamento o selezioni 
-
+ 
 5. solamente le colonne "id", "totale_ordine", "data_ordine"
 
 6. Tutti i clienti presenti nella tabella ma senza ripetizioni dei record
