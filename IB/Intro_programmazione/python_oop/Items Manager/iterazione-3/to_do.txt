@@ -7,7 +7,6 @@ Il punto di partenza è il codice nella classe itereazione-2/soluzione/main.py
 
 2) Prevedere un metodo di classe instantiate_from_csv(cls) per istanziare gli items direttamente da un file csv (che è in allegato)
 
-
 Fuori dalla classe, il codice dovrà essere simile al seguente: 
 
 Item.instantiate_from_csv()   

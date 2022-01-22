@@ -1,7 +1,5 @@
 **** ITERAZIONE 4 - TO DO ****
 Il punto di partenza è il codice nella classe itereazione-3/soluzione/main.py
-**** ITERAZIONE 4 - TO DO ****
-Il punto di partenza è il codice nella classe itereazione-3/soluzione/main.py
 
 1) Aggiungere una classe Phone che erediti la precedente classe Item.
     1.1) Definire il metodo __init__(self, name: str, price: float, quantity=0, broken_phones=0) al cui interno utilizzare la chiamata __init__del super costruttore
