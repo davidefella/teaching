@@ -7,23 +7,4 @@ Il punto di partenza è il codice nella classe itereazione-2/soluzione/main.py
 All'interno della funzione read_from_csv implementare l'istanziazione degli oggetti con i parametri letti da CSV 
 
 
-
-Item.instantiate_from_csv(); # Non funziona, perché? Come puoi correggere il codice? 
-
-print(Item.all_items)
-
-for i in Item.all_items: 
-    print(i.name + " - " + str(i.calculate_total_price()))
-
-
-
-
-item1 = Item("Phone", 100, 1)
-item2 = Item("Laptop", 1000, 3)
-item3 = Item("Cable", 10, 5)
-item4 = Item("Mouse", 50, 5)
-item5 = Item("Keyboard", 75, 5)
-
-print(Item.all)
-for i in Item.all: 
-    print(i.name + " - " + str(i.calculate_total_price()))
+print(Item.all_items) # Come far stampare una lista con tutte le istanze? 
