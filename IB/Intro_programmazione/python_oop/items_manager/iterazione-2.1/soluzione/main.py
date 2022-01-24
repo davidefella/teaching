@@ -32,9 +32,6 @@ class Item:
         pass
 
 
-Item.instantiate_from_csv(); # Non funziona, perché? Come puoi correggere il codice? 
+Item.instantiate_from_csv();
 
 print(Item.all_items)
-
-for i in Item.all_items: 
-    print(i.name + " - " + str(i.calculate_total_price()))
