@@ -1,0 +1,17 @@
+**** ITERAZIONE 2 - TO DO ****
+Il punto di partenza è il codice nella classe itereazione-2/soluzione/main.py
+
+1) Svolgere tutti i punti presenti nel file ex1_todo.txt presenti nel cartella extra_exercises
+
+
+Fuori dalla classe, il codice dovrà essere simile al seguente: 
+
+item1 = Item("Phone", 100, 1)
+item2 = Item("Laptop", 1000, 3)
+item3 = Item("Cable", 10, 5)
+item4 = Item("Mouse", 50, 5)
+item5 = Item("Keyboard", 75, 5)
+
+print(Item.all)
+for i in Item.all: 
+    print(i.name + " - " + str(i.calculate_total_price()))

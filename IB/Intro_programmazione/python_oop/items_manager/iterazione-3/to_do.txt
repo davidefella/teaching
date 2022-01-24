@@ -1,5 +1,5 @@
 **** ITERAZIONE 3 - TO DO ****
-Il punto di partenza è il codice nella classe itereazione-2/soluzione/main.py
+Il punto di partenza è il codice nella classe itereazione-2.1/soluzione/main.py
 
 1) Aggiungere un metodo statico alla classe item chiamato is_integer(num) per controllare che un numero sia effettivamente un intero
     1.1) In caso il numero passato non sia un numero e non sia un intero, tornare False
