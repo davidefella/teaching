@@ -3,8 +3,20 @@ Il punto di partenza è il codice nella classe itereazione-2/soluzione/main.py
 
 1) Svolgere tutti i punti presenti nel file ex1_todo.txt presenti nel cartella extra_exercises
 
+2) Riportare le funzioni scritte all'interno del file main.py contentenute nella soluzione. 
+All'interno della funzione read_from_csv implementare l'istanziazione degli oggetti con i parametri letti da CSV 
 
-Fuori dalla classe, il codice dovrà essere simile al seguente: 
+
+
+Item.instantiate_from_csv(); # Non funziona, perché? Come puoi correggere il codice? 
+
+print(Item.all_items)
+
+for i in Item.all_items: 
+    print(i.name + " - " + str(i.calculate_total_price()))
+
+
+
 
 item1 = Item("Phone", 100, 1)
 item2 = Item("Laptop", 1000, 3)

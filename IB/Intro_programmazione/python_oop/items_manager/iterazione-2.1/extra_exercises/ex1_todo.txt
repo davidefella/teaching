@@ -1,6 +1,6 @@
 Scrivere i seguenti metodi: 
 
-1) is_integer(num)
+1) def is_integer(num)
 Metodo che passato un valore ne determini se è di tipo intero (return True) oppure no (return False) 
 
 Hint: utilizzare il costrutto try - except + il cast int(). 
