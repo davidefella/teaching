@@ -1,0 +1,11 @@
+Scrivere i seguenti metodi: 
+
+1) is_integer(num)
+Metodo che passato un valore ne determini se è di tipo intero (return True) oppure no (return False) 
+Hint: utilizzare la funzione isIstance oppure un try - except 
+
+2) def read_from_csv()
+Metodo che legge come input il file items.csv e ne stampi i dati all'interno. Utilizzare la funzione scritta al punto precedente
+per controllare se i dati che provengono dal file sono interi 	
+Hint: import della classe csv e per leggere utilizzare il csv.DictReader 
+https://courses.cs.washington.edu/courses/cse140/13wi/csv-parsing.html (la parte fino alla lettura dei file) 
