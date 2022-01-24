@@ -3,11 +3,10 @@ Il punto di partenza è il codice nella classe itereazione-2/soluzione/main.py
 
 1) Aggiungere un metodo statico alla classe item chiamato is_integer(num) per controllare che un numero sia effettivamente un intero
     1.1) In caso il numero passato non sia un numero e non sia un intero, tornare False
-    1.2) Suggerimento: utilizzare il metodo isinstance di Python per capire se l'oggetto passato dinamicamente è classe int
 
 2) Prevedere un metodo di classe instantiate_from_csv(cls) per istanziare gli items direttamente da un file csv (che è in allegato)
 
-Fuori dalla classe, il codice dovrà essere simile al seguente: 
+Fuori dalla classe (nel corpo principale quindi), il codice dovrà essere simile al seguente: 
 
 Item.instantiate_from_csv()   
 
