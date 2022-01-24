@@ -1,14 +1,6 @@
 **** ITERAZIONE 3 - TO DO ****
 Il punto di partenza è il codice nella classe itereazione-2.1/soluzione/main.py
 
-1) Aggiungere un metodo statico alla classe item chiamato is_integer(num) per controllare che un numero sia effettivamente un intero
-    1.1) In caso il numero passato non sia un numero e non sia un intero, tornare False
+1) Aggiungere il decorator @classmethod al metodo instantiate_from_csv e modificare  il metodo di conseguenza
 
-2) Prevedere un metodo di classe instantiate_from_csv(cls) per istanziare gli items direttamente da un file csv (che è in allegato)
-
-Fuori dalla classe (nel corpo principale quindi), il codice dovrà essere simile al seguente: 
-
-Item.instantiate_from_csv()   
-
-for i in Item.all: 
-    print(i.name + " - " + str(i.calculate_total_price()))
+2) Aggiungere il decorator @staticmethodo al metodo is_integer e modificare  il metodo di conseguenza
