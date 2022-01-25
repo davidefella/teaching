@@ -25,12 +25,24 @@ class Item:
 
     # completare il corpo della funzione
     def is_integer(self, num): 
-        pass
+        try: 
+            int(num); 
+            return True; 
+        except ValueError: 
+            return False
 
-    @classmethod
-    def instantiate_from_csv(cls): 
-        with open('IB\Intro_programmazione\python_oop\items_manager\iterazione-2.1\extra_exercises\items.csv', 'r') as f:
-            pass
+    def instantiate_from_csv(self): 
+        csv_path = 'IB\Intro_programmazione\python_oop\projects\items_manager\iterazione-2.1\extra_exercises\items.csv'
 
+        with open(csv_path, 'r') as f:
+            reader = csv.DictReader(f)
+            items = list(reader)
 
+        for item in items:
+            if self.is_integer(item.get('quantity')): 
+               Item(name=item.get('name'), price=float(item.get('price')), quantity=int(item.get('quantity')))
+
+#Soluzione temporanea
+item1 = Item('test', 5, 1)
+item1.instantiate_from_csv()
 print(Item.all_items)
