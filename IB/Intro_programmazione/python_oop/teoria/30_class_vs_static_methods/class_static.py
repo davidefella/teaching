@@ -1,5 +1,5 @@
 '''
-@classmethod è una funzione built-in decorator di Python, è una espressione che viene 
+- @classmethod è una funzione built-in decorator di Python, è una espressione che viene 
 valutata dopo la definizione della tua funzione di classe. Un metodo di classe riceve
 la classe come primo argomento implicito ('cls' per convenzione). 
 
@@ -12,7 +12,8 @@ Dove myFunction è la mia funzione da convertire in un metodo di classe ritorna 
 Un metodo di classe è un metodo che è legato alla classe (e poi modificarne lo stato) e non all'istanza
 
 
-@staticmethod non riceve in maniera implicita nessum argomento 
+
+- @staticmethod non riceve in maniera implicita nessum argomento 
 
 class C:
     @staticmethod
@@ -28,3 +29,23 @@ statici quando vogliamo creare delle utility che non hanno però bisogno di acce
 di quella particolare classe. 
 
 '''
+
+@staticmethod
+def is_integer(num): 
+    try: 
+        int(num); 
+        return True; 
+    except ValueError: 
+        return False
+
+@classmethod
+def instantiate_from_csv(cls):
+    csv_path = 'IB\Intro_programmazione\python_oop\projects\items_manager\iterazione-2.1\extra_exercises\items.csv'
+
+    with open(csv_path, 'r') as f:
+        reader = csv.DictReader(f)  
+        items = list(reader)
+
+        for item in items:
+            if cls.is_integer(item.get('quantity')): 
+                pass 

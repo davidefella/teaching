@@ -1,8 +1,8 @@
 '''
-Queste che seguono sono alcune nozioni utili che vale la pena ricorda per capire i decorator. 
+Queste che seguono sono alcune nozioni utili che vale la pena ricorda per capire i decorator: 
 
-1. In python possiamo definire funzioni dentro altre funzioni
-2. In Python una funzione può essere passata come parametro ad un'altra funzione (e ritornata)
+- In python possiamo definire funzioni dentro altre funzioni
+- In Python una funzione può essere passata come parametro ad un'altra funzione (e ritornata)
 '''
 
 #ESEMPIO 1: aggiungiamo un messaggio di benvenuto alla stringa
@@ -22,9 +22,12 @@ print( messageWithWelcome(message("Hello World!")) )
 
 
 '''
-Un decorator è una funzione che accetta una funzione come unico parametro e restituisce una 
-funzione. Questo è utile per fare fare un 'wrap' intorno alla funzionalità con lo stesso codice 
-più e più volte. Ad esempio, il codice sopra può essere riscritto come segue, usiamo @func_name 
+- Un decorator è una funzione che accetta una funzione come unico parametro e restituisce una 
+funzione
+- Questo è utile per fare fare un 'wrap' intorno alla funzionalità con lo stesso codice 
+più e più volte
+
+Ad esempio, il codice sopra può essere riscritto come segue, usiamo @func_name 
 per specificare un decoratore da applicare su un'altra funzione.
 '''
 
@@ -43,10 +46,6 @@ def decorate_welcome_message(fun):
 def message(message_to_print):
     return message_to_print;
   
-  
-# This call is equivalent to call to
-# decorate_message() with function
-# site("GeeksforGeeks") as parameter
 a = message("Message with decorator")
 print( a ) 
 

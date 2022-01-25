@@ -1,11 +1,10 @@
 
 '''
-"self" rappresenta l'istanza della classe. Usando la parola chiave "self" possiamo accedere agli attributi 
-e ai metodi della classe in python, lega gli attributi con gli argomenti dati.
-Python esegue metodi in modo che l'istanza a cui appartiene il metodo, venga passata automaticamente. 
-Il primo parametro nella firma dei metodi è l'istanza stessa 
-
-"self" è sempre un puntamento all'oggetto corrente.
+- "self" rappresenta l'istanza della classe. 
+- Usando la parola chiave "self" possiamo accedere agli attributi e ai metodi della classe in python.
+- Python esegue metodi in modo che l'istanza a cui appartiene il metodo, venga passata automaticamente. 
+- Il primo parametro nella firma dei metodi è l'istanza stessa 
+- "self" è sempre un puntamento all'oggetto corrente.
 '''
 
 #ESEMPIO 1: obj e self sono chiaramente la stessa cosa
