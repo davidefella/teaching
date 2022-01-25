@@ -15,7 +15,7 @@ class Item:
         Item.all_items.append(self)
         
     def __repr__(self):
-        return f"Item('{self.name}', {self.price}, {self.quantity})"
+        return f"Item({self.name}, {self.price}, {self.quantity})"
 
     def calculate_total_price(self):
         return self.apply_discount(self.price) * self.quantity
@@ -27,7 +27,7 @@ class Item:
     def is_integer(self, num): 
         pass
 
-    @classmethod
+    # completare il corpo della funzione
     def instantiate_from_csv(cls): 
         with open('IB\Intro_programmazione\python_oop\items_manager\iterazione-2.1\extra_exercises\items.csv', 'r') as f:
             pass
