@@ -15,7 +15,7 @@ class Item:
         Item.all_items.append(self)
         
     def __repr__(self):
-        return f"Item('{self.name}', {self.price}, {self.quantity})"
+        return f"Item({self.name}, {self.price}, {self.quantity})"
 
     def calculate_total_price(self):
         return self.apply_discount(self.price) * self.quantity
