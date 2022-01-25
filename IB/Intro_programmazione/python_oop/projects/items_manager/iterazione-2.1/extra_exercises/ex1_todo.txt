@@ -13,4 +13,4 @@ Se il valore della quantity non è intero, non stampare la riga di item.
 Hint: import della classe csv e per leggere utilizzare csv.DictReader 
 https://courses.cs.washington.edu/courses/cse140/13wi/csv-parsing.html (la parte fino alla lettura dei file) 
 
-3) Se al posto del try - except, usi la funzione istanceof, che problema avresti? 
+3) Se al posto del try - except, usi la funzione isistance(), che problema avresti? 
