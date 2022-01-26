@@ -1,8 +1,0 @@
-GETTING STARTED 
-
-Per un nuovo progetto, si vuole realizzare un sistema di gestione bancario chiamato "Bank manager pro". 
-Lo sviluppo seguirà diverse fasi (iterazioni) in cui si aggiungeranno feature ed evolutive. 
-
-Iniziare l'analisi delle specifiche e lo svlippo dalla "iterazione 1". 
-
-Buon lavoro!
