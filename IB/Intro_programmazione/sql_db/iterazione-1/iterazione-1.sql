@@ -5,7 +5,7 @@ CREATE TABLE "ordine" (id INTEGER NOT NULL, nome_pizza varchar(15), nome_cliente
 
 --3 Popolare la tabella
 INSERT INTO "ordine" VALUES(0, 'Margherita', 'Davide', '14/01/2022 20:05', 5.5); 
-INSERT INTO "ord ine" VALUES(1, 'Peperoni', 'Davide', '14/01/2022 20:05', 7); 
+INSERT INTO "ordine" VALUES(1, 'Peperoni', 'Davide', '14/01/2022 20:05', 7); 
 INSERT INTO "ordine" VALUES(2, 'Margherita', 'Marco', '14/01/2022 21:05', 5.5); 
 INSERT INTO "ordine" VALUES(3, '4 Formaggi', 'Carla', '15/01/2022 20:05', 8); 
 INSERT INTO "ordine" VALUES(4, 'Diavola', 'Marta', '16/01/2022 19:05', 7.5);
