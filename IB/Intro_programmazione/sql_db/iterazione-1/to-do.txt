@@ -47,8 +47,3 @@ Scrivere una query che selezioni:
 18. Tutti gli ordini a più di 6 euro e meno di 8
 
 19. Solamente i primi 5 ordini in ordine temporale (dal più recente al più vecchio)
-
-
-
-
-

@@ -12,4 +12,3 @@
 3. Modificare la tabella "ordine": 
     - Eliminare la colonna "nome_cliente"
     - Aggiungere una colonna fk_cliente di tipo id, chiave esterna verso la tabella "cliente"
-
