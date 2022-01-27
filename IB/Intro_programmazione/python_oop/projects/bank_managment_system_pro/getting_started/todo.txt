@@ -1,4 +1,4 @@
-GETTING STARTED!"
+GETTING STARTED!
 
 Per un nuovo progetto, vogliamo creare un gestionale per una piccola banca chiamato "Banking Manangment System Pro".
 
