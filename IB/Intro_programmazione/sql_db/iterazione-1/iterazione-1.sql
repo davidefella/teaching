@@ -1,7 +1,7 @@
 --1. Creare un database con Postgresql chiamato "pizzeria_da_luigi" utilizzando PgAdmin (o un client a tua scelta)
  
 --2 All'interno del database crea una una tabella "ordine"
-CREATE TABLE "ordine" (id INTEGER NOT NULL, nome_pizza varchar(15), nome_cliente varchar(30), data_ordine timestamp, totale_ordine decimal)
+CREATE TABLE "ordine" (id INTEGER NOT NULL, nome_pizza varchar(15), nome_cliente varchar(30), data_ordine timestamp, totale_ordine decimal);
 
 --3 Popolare la tabella
 INSERT INTO "ordine" VALUES(0, 'Margherita', 'Davide', '14/01/2022 20:05', 5.5); 
