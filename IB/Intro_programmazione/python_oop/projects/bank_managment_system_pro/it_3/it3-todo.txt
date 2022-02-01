@@ -22,7 +22,7 @@ Aggiungere alla classe Cliente il parametro id (compresi i setter e getter)
     4.1) apri_conto_corrente(self, conto), aggiunge l'oggetto conto passato come parametro alla lista conti_correnti
     4.2) aggiungi_cliente(self, cliente), aggiunge l'oggetto conto passato come parametro alla lista clienti
     4.3) chiudi_conto_corrente(self, numero_conto), rimuove dalla lista conti_correnti il conto corrente con il numero_conto corrispondente
-    4.4) rimuovi_cliente(self_id), rimuove dalla lista conti_correnti il conto corrente con il numero_conto corrispondente
+    4.4) rimuovi_cliente(self_id), rimuove dalla lista dei clienti il cliente passato come id
 
     Nota: entrambi i metodi di rimozione devono stampare un messaggio di errore se il dato non è presente nella lista. Se presente, dopo la rimozione, devono stampare un messaggio di feedback positivo 
 
