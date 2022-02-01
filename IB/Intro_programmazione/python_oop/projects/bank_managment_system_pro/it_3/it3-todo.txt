@@ -6,7 +6,12 @@
     1.3) Scrivere il codice di questa iterazione in questa branch. 
 
 
-2) Aggiungere alla classe Cliente il parametro id (compresi i sette e getter)
+2) Aggiungere variabile id alle classi 
+    2.1) Rendere 'id' privata
+    2.2) Generare automaticamente un id nell'init delle classi 
+    2.3) Non prevedere property e setter per la variabile id
+
+Aggiungere alla classe Cliente il parametro id (compresi i setter e getter)
 
 
 3) Aggiungere un file utility.py con una classe Utility al suo interno.

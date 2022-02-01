@@ -16,10 +16,10 @@ conto4 = Conto(1987,cliente3)
 banca_san_paolo.aggiungi_cliente(cliente1)
 banca_san_paolo.aggiungi_cliente(cliente2)
 banca_san_paolo.aggiungi_cliente(cliente3)
-banca_san_paolo.aggiungi_conto_corrente(conto1)
-banca_san_paolo.aggiungi_conto_corrente(conto2)
-banca_san_paolo.aggiungi_conto_corrente(conto3)
-banca_san_paolo.aggiungi_conto_corrente(conto4)
+banca_san_paolo.apri_conto_corrente(conto1)
+banca_san_paolo.apri_conto_corrente(conto2)
+banca_san_paolo.apri_conto_corrente(conto3)
+banca_san_paolo.apri_conto_corrente(conto4)
 
 
 # RISPONDI ALLE DOMANDE SCRITTE NEI COMMENTI * 
