@@ -53,3 +53,15 @@ print(banca_san_paolo)
 conto4 = Conto(1990,cliente3)
 banca_san_paolo.aggiungi_conto_corrente(conto4)
 print(banca_san_paolo)
+
+
+#7. SCRIVI OUTUT PREVISTO: 
+print(Utility.is_integer(5.8))
+
+
+#8. SCRIVI OUTUT PREVISTO: 
+print(Utility.is_integer(5))
+
+
+#9. SCRIVI OUTUT PREVISTO: 
+print(Utility.is_integer('5.8'))
