@@ -1,6 +1,7 @@
 from soluzione_it3.cliente import Cliente
 from soluzione_it3.banca import Banca
 from soluzione_it3.conto import Conto
+from soluzione_it3.utility import Utility
 
 # CODICE DI TEST. Rispondi alle domande scritte nei commenti #
 cliente1 = Cliente(0, 'Davide', '3924663077')
