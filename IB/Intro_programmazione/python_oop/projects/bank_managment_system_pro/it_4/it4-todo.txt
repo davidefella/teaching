@@ -29,5 +29,5 @@
 	3.3) Modificare il metodo __repr__ con la stampa della nazione
 
 
-6) Terminato il punto 3, committare le modifiche e fare push verso account di GitHub 
-    6.1) fare il merge della branch "iterazione_3" su main e successivamente fare push verso il repository GitHub
+4) Terminato il punto 3, committare le modifiche e fare push verso account di GitHub 
+    4.1) fare il merge della branch "iterazione_4" su main e successivamente fare push verso il repository GitHub
