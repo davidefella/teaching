@@ -32,7 +32,7 @@
 
 /* 5. Creare una relazione "rider" con i seguenti attributi: 
     - id --> numerico, chiave primaria 
-    - id_compagnia --> numerico
+    - id_compagnia --> numerico, chiave esterna verso la tabella azienda_consegne
 */
 
 
