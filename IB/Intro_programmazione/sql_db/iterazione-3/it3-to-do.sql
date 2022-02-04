@@ -7,18 +7,16 @@
 
 
 
-/* 2. Crea la relazione
- "riga_ordine" con i seguenti attributi: 
+/* 2. Crea la relazione "riga_ordine" con i seguenti attributi: 
     - id --> numerico non nullo, chiave primaria
     - fk_ordine numero non nullo, chiave esterna verso "ordine" 
     - fk_riga_menu numerico non nulla, chiave esterna verso "menu"*/
 
 
 
-/* 3. Modificare la relazione
- "ordine": 
+/* 3. Modificare la relazione  "ordine": 
     - Eliminare la colonna "nome_cliente"
-    - Aggiungere una colonna fk_cliente di tipo id, chiave esterna verso la relazione
+    - Aggiungere una colonna fk_cliente di tipo integer, chiave esterna verso la relazione
      "cliente" */
 
 
@@ -52,5 +50,4 @@
 
 
 /* 8. Modificare la relazione "cliente": 
-    - Creare un campo "id_tessera" e renderla chiave primaria verso la relazione
-     "tessera punti" */
+    - Creare un campo "id_tessera" e renderla chiave esterna verso la relazione "tessera punti" */

@@ -52,9 +52,6 @@ SELECT COUNT(*) FROM "ordine"
 --11 Gli ordini che sono di uno specifico giorno
 SELECT * FROM "ordine" WHERE data_ordine BETWEEN '15/01/2022 00:00' AND '16/01/2022 00:00'
 
---12 Selezionare gli ordini con 3 nomi diversi di pizza (Utilizzare costrutto IN)
-SELECT * FROM "ordine" WHERE nome_pizza IN ('Margherita', 'Boscaiola', 'Diavola')
-
 --13 Il totale dei prezzi 
 SELECT SUM(totale_ordine) AS "Totale ordini" FROM "ordine" 
 
