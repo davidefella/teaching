@@ -30,22 +30,19 @@
 
 /* 5. Creare una relazione "rider" con i seguenti attributi: 
     - id --> numerico, chiave primaria 
-    - id_compagnia --> numerico, chiave esterna verso la tabella azienda_consegne
-*/
+    - id_compagnia --> numerico, chiave esterna verso la tabella azienda_consegne*/
 
 
 
 /* 6. Creare una relazione "azienda_consegne": 
     - id --> mumerico, chiave primaria 
     - nome_azienda --> varchar
-    - tariffa --> decimal
-*/
+    - tariffa --> decimal*/
 
 
 
 /* 7. Modificare la relazione "ordine" aggiugendo il seguente attributo: 
-    - "id_rider", intero, chiave eserna verso l'id della relazione "azienda_consegne"
-*/
+    - "id_rider", intero, chiave eserna verso l'id della relazione "azienda_consegne"*/
 
 
 
