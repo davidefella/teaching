@@ -1,0 +1,14 @@
+*** ITERAZIONE 5 - TO-DO ***
+
+1) Assicurarsi che la branch di main abbia le modifiche della branch "iterazione_4"
+    1.1) Partendo da branch main, creare localmente una nuova branch chiamata "iterazione_5"
+    1.2) Una volta creata la branch, fare push verso repositiory GitHub
+    1.3) Scrivere il codice di questa iterazione in questa branch. 
+
+2) Aggiungere un file persistence.py con al suo interno una classe Persistence con i seguenti metodi:
+    2.1) Un metodo banca_save_all() che consente di salvare in un file banca.json tutte le istanze di una banca
+    2.2) Un metodo cliente_save_all() che consente di salvare in un file banca.json tutte le istanze di una banca
+    2.3) Un metodo conto_save_all() che consente di salvare in un file banca.json tutte le istanze di una banca
+
+3) Terminato il punto 2, committare le modifiche e fare push verso account di GitHub 
+    3.1) fare il merge della branch "iterazione_4" su main e successivamente fare push verso il repository GitHub
