@@ -12,11 +12,11 @@
 	2.2) Modificare il metodo preleva_soldi(self, value) in modo da tenere in considerazione anche la tassa_prelievo nel controllo disponibilità e saldo 
     2.3) Aggiungere la classe ContoSpecial che eredita la classe Conto.  
     2.4) Aggiungere alla classe ContoSpecial una variabile di classe tassa_prelievo pari ad 2.00.  
-    2.5) Aggiungere alla classe ContoSpecial una variabile di classe 'data_inizio_debito' impostata di deafult a None
-    2.5) Fare override del metodo preleva_soldi(self, value) in modo sottrarre la tassa prelievo ad ogni prelievo. 
+    2.5) Aggiungere alla classe ContoSpecial una variabile di istanza 'data_inizio_debito' impostata di deafult a None
+    2.5) Fare override nella classe ContoSpecial del metodo preleva_soldi(self, value) in modo sottrarre la tassa prelievo ad ogni prelievo. 
          Eliminare il controllo sulla disponibilità del fondo (Accettabile un saldo negativo, quindi). 
     2.6) Modificare il metodo preleva_soldi della classe ContoSpecial in modo che se il conto diventa negativo, la data_inizio_debito  
-         deve essere pari al timestamp. Nota, inserire opportuni controlli per evitare di sovrascrivere la variabile se già 
+         deve essere pari al timestamp attuale (now). Nota, inserire opportuni controlli per evitare di sovrascrivere la variabile se già 
          valorizzata 
     2.7) Modificare il metodo versa_soldi della classe ContoSpecial in modo da chiamare la super della classe padre e successivamente prevedere
          un controllo tale che se il saldo è tornato positivo, deve reimpostare la variabile data_inizio_debito a None e stampare un messaggio 
