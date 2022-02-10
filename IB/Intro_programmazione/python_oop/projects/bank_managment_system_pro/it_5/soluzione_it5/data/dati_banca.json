@@ -1,0 +1,73 @@
+[
+    {
+        "_Banca__nome_banca": "Banca San Paolo",
+        "_Banca__clienti": [
+            {
+                "_Cliente__nome_cliente": "Davide",
+                "_Cliente__numero_telefono": "3924663077",
+                "_Cliente__id": 4338047952
+            },
+            {
+                "_Cliente__nome_cliente": "Simona",
+                "_Cliente__numero_telefono": "3335688985",
+                "_Cliente__id": 4337533040
+            },
+            {
+                "_Cliente__nome_cliente": "Marco",
+                "_Cliente__numero_telefono": "3335688285",
+                "_Cliente__id": 4337329936
+            }
+        ],
+        "_Banca__conti_correnti": [
+            {
+                "_Conto__numero_conto": 1587,
+                "_Conto__cliente": {
+                    "_Cliente__nome_cliente": "Davide",
+                    "_Cliente__numero_telefono": "3924663077",
+                    "_Cliente__id": 4338047952
+                },
+                "_Conto__saldo": 500,
+                "_Conto__id": 4338066208
+            },
+            {
+                "_Conto__numero_conto": 1588,
+                "_Conto__cliente": {
+                    "_Cliente__nome_cliente": "Davide",
+                    "_Cliente__numero_telefono": "3924663077",
+                    "_Cliente__id": 4338047952
+                },
+                "_Conto__saldo": 0,
+                "_Conto__id": 4338066256
+            },
+            {
+                "_Conto__numero_conto": 1685,
+                "_Conto__cliente": {
+                    "_Cliente__nome_cliente": "Simona",
+                    "_Cliente__numero_telefono": "3335688985",
+                    "_Cliente__id": 4337533040
+                },
+                "_Conto__saldo": 0,
+                "_Conto__id": 4338066976
+            },
+            {
+                "_Conto__numero_conto": 1987,
+                "_Conto__cliente": {
+                    "_Cliente__nome_cliente": "Marco",
+                    "_Cliente__numero_telefono": "3335688285",
+                    "_Cliente__id": 4337329936
+                },
+                "_Conto__saldo": 0,
+                "_Conto__id": 4338066544
+            }
+        ],
+        "_Banca__nazione": "IT",
+        "_Banca__id": 4337332048
+    },
+    {
+        "_Banca__nome_banca": "Banca San Paolo",
+        "_Banca__clienti": [],
+        "_Banca__conti_correnti": [],
+        "_Banca__nazione": "GE",
+        "_Banca__id": 4337335504
+    }
+]

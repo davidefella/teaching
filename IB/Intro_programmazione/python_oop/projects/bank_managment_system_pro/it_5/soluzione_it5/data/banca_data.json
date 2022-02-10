@@ -1,0 +1,17 @@
+[
+    {
+        "_Cliente__nome_cliente": "Davide",
+        "_Cliente__numero_telefono": "3924663077",
+        "_Cliente__id": 4341645264
+    },
+    {
+        "_Cliente__nome_cliente": "Simona",
+        "_Cliente__numero_telefono": "3335688985",
+        "_Cliente__id": 4341645168
+    },
+    {
+        "_Cliente__nome_cliente": "Marco",
+        "_Cliente__numero_telefono": "3335688285",
+        "_Cliente__id": 4342109264
+    }
+]
