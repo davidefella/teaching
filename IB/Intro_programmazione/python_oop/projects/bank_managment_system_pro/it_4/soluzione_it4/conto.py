@@ -56,6 +56,12 @@ class ContoSpecial(Conto):
     tassa_prelievo = 2
     data_inizio_debito = None
 
+    def __init__(self, numero_conto, cliente, data_inizio_debito, saldo=0):
+        super.__init__(numero_conto, cliente, saldo)
+        self.data_inizio_debito = data_inizio_debito
+        print(f'Istanza conto creata con id: {self.__id}')
+
+
     def preleva_soldi(self, value): 
         self.saldo -= (value + self.tassa_prelievo)
         print(f'Hai prelevato é {value}. Nuovo saldo del conto: {self.saldo}')
