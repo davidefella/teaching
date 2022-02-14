@@ -1,0 +1,42 @@
+Vogliamo realizzare un gioco di ruolo interattivo a linea di comando, ambientato nella scuola Infobasic di Pescara
+
+REGOLE DEL GIOCO: 
+
++ Lo scopo del gioco è trovare il manuale di python nascosto in una stanza a caso. 
+
++ Il giocatore ha a disposizione 10 punti vita (PV)
+
++ Il giocatore si può muovere di una stanza per volta tramite uno di questi comandi. 
+    - "vai nord"
+    - "vai sud"
+    - "vai est" 
+    - "vai ovest" 
+
+  Ogni cambio di stanza fa perdere un PV, se si arriva a 0 il giocotore perde la partita. 
+
++ Il giocatore ha a disposizione i seguenti comandi 
+    - "guarda" --> stampa della descrizione della stanza dove si trova il giocatore. Se il manuale è presente nella stanza, il giocatore vince. 
+    - "esci"   --> il gioco termina l'esecuzione e il giocatore perde. 
+    - "vai {direzione}" ---> per entrare nella stanza 
+
+
+SPECIFICHE TECNICHE IMPLEMENTATIVE: 
+
+- Prevedere le seguenti stanze/ambienti che devono essere collegate a vostra scelta: 
+    + Parcheggio (* ambiente di partenza che ha solo "atrio" come stanza adiacente)
+    + Atrio 
+    + Area relax 
+    + Segreteria 
+    + Aula Azzurra
+    + Aula Gialla 
+    + Presidenza 
+
+- Ogni stanza ha al massimo 4 uscite
+
+- All'avvio del programma, stampare un messaggio di benvenuto e chiedere il nome del giocatore. 
+
+- Utilizzare un repo github per il progetto
+
+- Il manuale di Python deve essere nascosto in una stanza a caso ogni volta che si avvia lo script
+
+- Se il giocatore prova a muoversi in una direzione che non ha una stanza, prevedere un messaggio di errore. 
