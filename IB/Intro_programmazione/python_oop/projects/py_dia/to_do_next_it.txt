@@ -1,0 +1,8 @@
+Completare il codice proposto aggiungendo le seguenti features: 
+
++ Estrazione causale della stanza vincente
++ Migliorare i messaggi stampati verso l'utente
+    (es, stampare delle statistiche finali)
++ Far in modo che il giocatore possa raccogliere degli oggetti speciali
+    (es, poziione che fa recuperare punti vita)
++ Implementare una stanza casuale che dopo aver guardato, toglie 2 punti vita
