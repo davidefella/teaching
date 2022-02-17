@@ -1,7 +1,5 @@
 class Stanza: 
 
-    NUMERO_MASSIMO_DIREZIONI = 4
-
     def __init__(self, nome): 
         self.nome = nome 
         self.nord = None
